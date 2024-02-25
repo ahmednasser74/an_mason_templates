@@ -16,6 +16,7 @@ analyzer:
 
 ```sh
 /mason_templates
+.mason
 ```
 
 ### Update .ignore
