@@ -1,7 +1,7 @@
 import 'package:an_core_network/an_core_network.dart';
 import '../models/index.dart';
 
-class {{name}}Request with Request, {{requestType.toCamelCase()}}Request {
+class {{name}}Request with Request, {{requestType.pascalCase()}}Request {
   const {{{name}}}Request(this.requestModel);
 
   @override
