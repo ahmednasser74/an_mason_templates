@@ -17,6 +17,4 @@ class {{name}}Request with Request, {{requestType.pascalCase()}}Request {
     return Future.value(body);
   }
 {{/hasQueryParameters}}
-  @override
-  bool get isEncoded => true;
 }

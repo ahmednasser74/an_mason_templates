@@ -14,7 +14,7 @@ class {{name}}RequestModel extends RequestModel {
   }) : super(progressListener);
 
   @override
-  Future<Map<String, dynamic>> toJson() async => _${{name}}RequestModelToJson(this);
+  Map<String, dynamic> toJson() => _${{name}}RequestModelToJson(this);
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
