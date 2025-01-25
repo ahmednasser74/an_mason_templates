@@ -27,13 +27,13 @@ analyzer:
 
 ### Run in terminal
 ```sh
-    mason add api_model --path mason_templates/api_model;
-     mason add base_screen --path mason_templates/base_screen;
-     mason add clean_arch_feature --path mason_templates/clean_arch_feature;
-     mason add new_feature --path mason_templates/new_feature;
-     mason add normal_feature --path mason_templates/normal_feature;
-     mason add request --path mason_templates/request;
-     mason add request_model --path mason_templates/request_model;
-     mason add response_model --path mason_templates/response_model
+     mason add api_model --path templates_mason/api_model;
+     mason add base_screen --path templates_mason/base_screen;
+     mason add clean_arch_feature --path templates_mason/clean_arch_feature;
+     mason add new_feature --path templates_mason/new_feature;
+     mason add normal_feature --path templates_mason/normal_feature;
+     mason add request --path templates_mason/request;
+     mason add request_model --path templates_mason/request_model;
+     mason add response_model --path templates_mason/response_model
 ```
 
